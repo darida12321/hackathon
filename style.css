@@ -1,0 +1,43 @@
+.loader {
+    border: 16px solid white; /* Light grey */
+    border-top: 16px solid #255C99; /* Blue */
+    border-bottom: 16px solid #255C99;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.navbar-custom { 
+    background-color: #255C99; 
+}
+.background {
+    background-color: #7EA3CC;
+}
+#title {
+    color: white;
+}
+
+label {
+    color: #262626;
+    font-size: larger;
+}
+p {
+    color: #262626;
+}
+small {
+    font-size: x-small;
+}
+input[type=radio]{
+    transform:scale(1.4);
+}
+
+
+
